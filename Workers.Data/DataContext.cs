@@ -17,7 +17,8 @@ namespace Workers.Data
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer(@"Server=(localdb)\MSSQLLocalDB;Database=workers123_db");
+           // optionsBuilder.UseSqlServer(@"Server=(localdb)\MSSQLLocalDB;Database=workers123_db");
+            optionsBuilder.UseSqlServer("Server=34.122.63.173;Database=LeahPosen3265;Uid=SqlServer;Pwd=123456;TrustServerCertificate=Yes");
         }
          
         
